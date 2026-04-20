@@ -1,0 +1,21 @@
+.floatingCircle {
+  animation: float 8s ease-in-out infinite;
+  filter: blur(2px);
+}
+
+.floatingRect {
+  animation: floatReverse 10s ease-in-out infinite;
+  filter: blur(1px);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-24px) rotate(4deg); }
+  66% { transform: translateY(-12px) rotate(-3deg); }
+}
+
+@keyframes floatReverse {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(18px) rotate(-5deg); }
+  66% { transform: translateY(9px) rotate(3deg); }
+}

@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "logo": {
+      "src": "",
+      "alt": "Grafterr"
+    },
+    "links": [
+      { "label": "Products", "href": "#products" },
+      { "label": "Solutions", "href": "#solutions" }
+    ],
+    "cta": {
+      "label": "Get Started",
+      "href": "#get-started"
+    }
+  },
+  "hero": {
+    "headlinePrefix": "The smarter",
+    "headlineGradient": "technology provider",
+    "headlineSuffix": "for restaurants",
+    "subheadline": "Streamline your operations, delight your guests, and grow your revenue with Grafterr's all-in-one restaurant technology platform.",
+    "cta": {
+      "label": "Book a Demo",
+      "href": "#demo"
+    },
+    "decorativeShapes": [
+      { "type": "circle", "color": "#0D9488", "size": 340, "top": "-80px", "right": "-60px" },
+      { "type": "rectangle", "color": "#F97316", "width": 180, "height": 260, "bottom": "-40px", "left": "-40px" }
+    ]
+  },
+  "featuresSection": {
+    "title": "Everything you need to",
+    "titleAccent": "grow your business",
+    "subtitle": "From the front of house to the kitchen, Grafterr powers every part of your restaurant with intelligent, connected technology.",
+    "products": [
+      {
+        "id": "pos",
+        "name": "Point of Sale",
+        "tagline": "Fast, intuitive, reliable",
+        "description": "A lightning-fast POS system designed for the demands of busy restaurants. Handle high-volume service with ease, reduce errors, and keep your team moving.",
+        "icon": "🖥️",
+        "color": "#3B82F6",
+        "features": ["Real-time order sync", "Split bills & custom modifiers", "Offline mode support", "Instant receipt printing"]
+      },
+      {
+        "id": "self-service",
+        "name": "Self-Service",
+        "tagline": "Empower your guests",
+        "description": "Let customers order at their own pace with beautiful kiosk and QR ordering experiences that increase average order value and reduce wait times.",
+        "icon": "📱",
+        "color": "#F97316",
+        "features": ["QR code ordering", "Kiosk interface", "Upsell engine", "Multi-language support"]
+      },
+      {
+        "id": "kitchen",
+        "name": "Kitchen Management",
+        "tagline": "Orchestrate your kitchen",
+        "description": "A powerful kitchen display system that keeps your kitchen in perfect sync with front-of-house, reducing errors and improving ticket times.",
+        "icon": "🍳",
+        "color": "#0D9488",
+        "features": ["Live ticket display", "Course timing", "Allergen alerts", "Priority routing"]
+      }
+    ]
+  },
+  "carousel": {
+    "itemsPerView": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3
+    },
+    "showArrows": true
+  }
+}
